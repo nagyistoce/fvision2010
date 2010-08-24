@@ -1,4 +1,4 @@
 TEMPLATE  = subdirs
 CONFIG   += ordered
 
-SUBDIRS = modules apps
+SUBDIRS = modules libs_install apps apps_install

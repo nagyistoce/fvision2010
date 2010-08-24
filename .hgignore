@@ -1,1 +1,8 @@
 glob:*.user
+glob:*.o
+glob:Makefile*
+glob:*.a
+glob:*.exe
+glob:*.Debug
+glob:*.Release
+glob:*.dll
