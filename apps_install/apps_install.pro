@@ -7,4 +7,5 @@ OPENCV_DLL_DIR = $$PWD/../modules/opencv_1.0/bin
 DEST_BIN_DIR = $$PWD/../bin
 QMAKE_POST_LINK += mkdir $$DEST_BIN_DIR &
 QMAKE_POST_LINK += cp ../apps/point_tracking_tools/bin/*.exe $$DEST_BIN_DIR &
+QMAKE_POST_LINK += cp ../apps/model_calculation_tools/bin/*.exe $$DEST_BIN_DIR &
 QMAKE_POST_LINK += cp $$OPENCV_DLL_DIR/*.dll $$DEST_BIN_DIR
