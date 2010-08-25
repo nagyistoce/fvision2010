@@ -44,3 +44,4 @@ HEADERS += \
     ../include/fvision/geom/Camera.h \
     ../include/fvision/geom/camera1d_utils.h \
     ../include/fvision/geom/Camera1D.h
+
